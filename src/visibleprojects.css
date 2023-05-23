@@ -1,0 +1,32 @@
+.projects2 {
+    margin-top: 13px;
+    width: 100%;
+    background: linear-gradient( #0f2862, #4f5f76, #628078, #3d7c47, #feda6a);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.code_gif{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.code_gif img{
+    width: 160px;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+@media (width<=600px) {
+    .row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 5px;
+    }
+    .projects {
+        margin-top: 13px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,33 @@
+.projects {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+ h1{
+    text-align: center;
+    color: red;
+}
+.skeleton_div{
+    display: block;
+    width: 250px;
+    height: 340px;
+    margin-top: 100px;
+    margin: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    overflow: hidden;
+    border: 1px solid wheat;
+    cursor: pointer;
+    box-shadow: 3px 13px 12px 12px #2d545e;
+}
+
+
+.skeleton_btn_div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

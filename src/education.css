@@ -1,0 +1,62 @@
+.third_box {
+    width: 100%;
+ 
+    /* background: linear-gradient(90deg, rgba(203, 28, 181, 1) 0%, rgba(0, 248, 255, 1) 100%); */
+    display: flex;
+    border-color: transparent;
+    border-radius: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.third_box h1 {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.third_box .about_btech,
+.about_tenth,
+.about_puc {
+    width: 70%;
+    margin-bottom: 40px;
+    text-transform:uppercase ;
+    font-weight: 900;
+    text-align: justify;
+    line-height: 40px;
+}
+
+.third_box .about_btech span,
+.about_puc span,
+.about_tenth span {
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: aqua;
+    width: 250px;
+    margin-right: 10px;
+}
+
+
+
+@media(width<=800px) {
+    .third_box h1 {
+        font-size: 30px;
+    }
+
+    .third_box .about_btech,
+    .about_tenth,
+    .about_puc {
+        width: 90%;
+    }
+
+
+
+}

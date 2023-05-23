@@ -1,0 +1,112 @@
+body {
+    /* background-color: black; */
+    color: black;
+}
+
+
+.loginmain {
+    display: flex;
+    background: url('https://wallpapercave.com/wp/wp9315212.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 640px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.loginmain .login_box .head {
+    color: orangered;
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 50px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.loginmain .login_box {
+    display: flex;
+}
+
+.login_box form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+}
+
+.login_box {
+    margin-top: 70px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.login_box input {
+    margin-left: 6px;
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.login_box form span {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+.login_box form span .login_button {
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.login_box form label {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: solid;
+    text-shadow: 5px 5px 5px white;
+    font-size: 20px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.login_box input:invalid{
+    border-bottom: 2px solid red;
+    animation:inputanimation 0.3s 0.2s;
+
+}
+.skip_button{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.skip_button button{
+    background-color:hotpink;
+    width: 80px;
+border-radius: 20px;
+border: 2px solid white;
+cursor: pointer;
+}
+
+@keyframes inputanimation{
+    0%{transform: translate(10px);}
+    25%{transform: translate(-10px)}
+    50%{transform: translate(10px);}
+    100%{transform: translate(-10px)}
+}
+

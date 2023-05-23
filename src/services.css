@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Vina+Sans&display=swap');
+
+
+.services{
+     background:  linear-gradient( #0f2862, #4f5f76, #628078, #3d7c47, #feda6a);;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    gap: 40px;
+    border-radius: 20px;
+   
+  
+}
+
+.services .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services .header .bordered_line{
+    margin-top: 3px;
+    width: 100px;
+    height: 1px;
+    background-color: yellow;
+}
+.services .header  h1{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.services .header .service_line {
+    color: #ffff;
+    font-size: 19px;
+    text-align: center;
+}
+.services .main_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 40px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.services .main_body .mainbody_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    border: 2px solid red;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.services .main_body .mainbody_card span{
+    margin-top: 10px;
+    color: rgb(0, 255, 64);
+    background-color: #fff;
+    font-size: 30px;
+}
+.services .main_body .mainbody_card .Skill_title{
+    /* font-size: 23px; */
+    color: #ffff;
+    color: black;
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Vina Sans', cursive;
+}
+
+.skill_explaination{
+    color: #ffff;
+    color: black;
+    font-weight: 900;
+    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+    word-spacing: 1px;
+    line-height: 23px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+@media(width>=800px){
+   
+    .services .main_body{
+        display: flex;
+        width:800px;
+        min-height: 500px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        flex:  1 1 1 ;
+        margin-top: 20px;
+        gap: 30px;
+
+        
+    }
+
+    .services .main_body .mainbody_card{
+        margin-left: 30px;
+        
+    }
+
+
+}

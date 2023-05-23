@@ -1,0 +1,109 @@
+    body {
+        margin: 0%;
+    }
+
+   
+    
+    .uploadmain {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .uploadmain nav {
+        color: aliceblue;
+        display: flex;
+        width: 100%;
+        height: 35px;
+        align-items: center;
+        background-color: red;
+        border: 2px solid white;
+    }
+    
+    .middle_part {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .middle_part .left span {
+        color: blue;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .middle_part .right {
+        background-color: gainsboro;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    h1 {
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    .middle_part .right form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 700px;
+        min-width: 400px;
+        margin-top: 10px;
+    }
+    .middle_part .right form  .skills_section{
+        height: 50px;
+        width: 100%;
+        border: 1px solid black;
+        background-color: white;
+    }
+    .middle_part .right form label {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    
+    .middle_part .right form input {
+        border: none;
+        border-bottom: 1px solid black;
+        height: 30px;
+    }
+    
+    .middle_part .right form button {
+        background-color: green;
+        color: white;
+        height: 50px;
+        border-radius: 50px;
+        border-style: none;
+        cursor: pointer;
+    }
+
+    
+    .middle_part .right form button:hover {
+        background-color: blue;
+        color: beige;
+    }
+.middle_part .right form input:invalid{
+        border-color:2px solid  red;
+    }
+
+
+    img{
+        width: 80%;
+        height: 170px;
+    }
+    @media (width<=600px) {
+        .middle_part .left {
+            display: none;
+        }
+        .middle_part .right {
+            width: 100%;
+        }
+        .middle_part .right h1 {
+            font-size: 20px;
+        }
+    }
